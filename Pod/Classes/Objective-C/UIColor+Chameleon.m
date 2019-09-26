@@ -938,6 +938,7 @@
         case kCGColorSpaceModelIndexed:
         case kCGColorSpaceModelLab:
         case kCGColorSpaceModelPattern:
+        case kCGColorSpaceModelXYZ:
         case kCGColorSpaceModelUnknown: {
             
             #ifdef DEBUG
@@ -950,6 +951,7 @@
             rgba[3] = 1.0f;
             break;
         }
+        
     }
 }
 
